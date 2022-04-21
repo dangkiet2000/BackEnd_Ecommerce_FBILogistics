@@ -1,0 +1,25 @@
+{
+  "name": "passport_facebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon test.js",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "crypto-js": "^4.1.1",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "nodemon": "^2.0.15",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oidc": "^0.1.0",
+    "zalo-sdk": "^2.0.3"
+  }
+}
