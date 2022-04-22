@@ -5,4 +5,4 @@ const supplierSchema = new mongoose.Schema({
     description: String
 })
 
-module.exports = mongoose.model('user', supplierSchema)
+module.exports = mongoose.model('supplier', supplierSchema)

@@ -5,4 +5,4 @@ const brandSchema = new mongoose.Schema({
     description: String
 })
 
-module.exports = mongoose.model('user', brandSchema)
+module.exports = mongoose.model('brand', brandSchema)
