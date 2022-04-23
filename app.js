@@ -10,7 +10,7 @@ const app = express();
 app.use(cors())
 app.use('/', authFacebookRouter);
 app.use('/', authGoogleRouter);
-app.use('/api/v1/product',productRouter)
+app.use('/api/v1/products',productRouter)
 async function start() {
     try {
         await DBConnection()
